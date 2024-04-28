@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+15&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h3 style="font-size: 25px;background-color: black;color: white;border-radius: 20px;text-align: center;text-decoration: underline solid yellow;">Temperature converter</h3>
+  <div id="main">
+ <h1 style="text-transform: capitalize;color: blue;text-decoration: underline solid orangered;">temperature - converter</h1>
+ 
+  
+  <input type="number" id="text" >
+<br>
+  <input type="radio" for="cf" name="temp" id="cf" style="cursor: pointer;">
+  <label for="cf" id="c " style="font-size: 25px;line-height: 60px;text-transform: capitalize;cursor:pointer">celsius &rightarrow; fahrenheit</label>
+  <br><br>
+  <input type="radio" for="fc" name="temp" id="fc" style="cursor: pointer;">
+  <label for="fc" id="f" style="font-size: 25px;text-transform: capitalize; cursor: pointer;"> fahrenheit &rightarrow; celsius </label>
+  <br><br>
+  <button id="submit">Convert</button>
+  <button id="reset" style="margin-left: 10px;">Reset</button>
+  
+  <br><br>
+  <p id="result"></p>
+  </div>
+<footer>
+  <h4 style="font-size: 10px; color: rgb(42, 39, 34);position: absolute;top: 85%;left: 80%;transform: translate(-50%,-50%);background-color: yellowgreen;">@Made by vivek jha </h4>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
